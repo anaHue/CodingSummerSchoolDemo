@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header-section {
+    background-image: linear-gradient(to bottom, rgba(232, 245, 255, 0.5), rgba(232, 245, 255, 0.5)), url(../images/thinkyoung.png);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+}
+
+#parallax-section {
+    /*background-image: linear-gradient(to bottom, #0e8c82,#ffffff),url(../images/shareBanner.jpg);*/
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#footer-section {
+    background-image:  linear-gradient(to bottom, #0e8c81b7,#0e8c81b7),url(../images/cover-bubble-dark.svg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+}

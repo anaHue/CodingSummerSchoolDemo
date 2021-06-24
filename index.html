@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          type="text/css">
+    <link rel="stylesheet" href="css/theme.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My awesome website</title>
+    <link rel="icon" type="image/png" href="images/icon.png" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button"
+                    data-toggle="collapse" data-target="#navbar8">
+                    <!-- if window too small => responsive navbar (hamburger menu) -->
+                    <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar8">
+                <ul class="navbar-nav mr-auto">
+                    <!-- if link => name of id (cf l.65)-->
+                    <li class="nav-item"> <a class="nav-link" href="#How">How?</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#carousel">Examples of code</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">JS</a> </li>
+                </ul>
+                <p class="text-primary d-none d-md-block lead mb-0"> <i class="fa d-inline fa-lg fa-laptop"></i>
+                    <b>Making a website at Coding Summer School</b> </p>
+                <p class="navbar-nav ml-auto">
+                   By Anatole
+                </p>
+            </div>
+        </div>
+    </nav>
+    <div id="header-section" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 p-0">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rVYlgP5yRWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="p-5 col-lg-7 d-flex flex-column justify-content-center" style="color:rgba(22, 88, 5, 0.836)">
+                    <h3 class="display-4 mb-3">Coding Summer School</h3>
+                    <p class="lead mb-0">
+                        During this event, participants are learning to build a website, a game and to deploy their work.
+                        Various presentations from professionnals are also explaining the goal of learning code
+                        and how it is important in their work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" id="How">
+                    <h1>Your weapons to build an awesome website</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-3 text-center">
+                    <p>In order to write some code, we use programming languages.
+                       <br>
+                       For your website, you will need to learn 3 programming languages.
+                       <br>
+                       You will learn them throughout some videos that will show you different possibilities
+                       and will help you to do so step-by-step!
+
+                    </p>
+                </div>
+                <div style="border-left: 3px solid lightgrey; height: 175px; margin-right: -10px;"></div>
+                <div class="col-md-6 p-3">
+                    <ul>
+                        <li>HTML - used for defining the content of your website</li>
+                        <br>
+                        <li>CSS - used for defining the style of the elements of your website</li>
+                        <br>
+                        <li>JS - used for interactivity / making games / ... on your website</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5">
+        <div class="container-fluid">
+            <div class="row" style="display: flex; justify-content: space-evenly;">
+                <div class="col-6 col-md-3 p-0"> <img class="img-fluid d-block" src="images/html_Logo.png" style="margin-right: auto; margin-left: auto;"> </div>
+                <div class="col-6 col-md-3 p-0"> <img class="img-fluid d-block" src="images/css_logo.png" style="margin-right: auto; margin-left: auto;"></div>
+                <div class="col-6 col-md-3 p-0"> <img class="img-fluid d-block" src="images/js_logo.png" style="margin-right: auto; margin-left: auto;"> </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" data-ride="carousel" id="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"> <img class="d-block img-fluid w-100"
+                                     src="images/htmlCode.jpg">
+                                <div class="carousel-caption">
+                                    <h5 style="font-weight: bold; margin-bottom: 650px;">HTML CODE</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> <img class="d-block img-fluid w-100"
+                                     src="images/cssCode.png">
+                                <div class="carousel-caption">
+                                    <h5 style="font-weight: bold;margin-bottom: 510px;">CSS CODE</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> <img class="d-block img-fluid w-100"
+                                     src="images/jsCode.png" height="initial-scale">
+                                <div class="carousel-caption">
+                                    <h5  style="color:black;font-weight: bold;margin-bottom: 750px;">JS CODE</h5>
+                                </div>
+                            </div>
+                        </div> <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev"> <i class="fa fa-chevron-left"style="color: red"></i></span> <span class="sr-only">Previous</span> </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next"> <i class="fa fa-chevron-right"style="color: red"></i> <span class="sr-only">Next</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto col-md-12">
+                    <h1 class="mb-3">Where to start?</h1>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                         src="images/1.png" width="100" alt="Card image cap">
+                    <h4> <b>Install VSCode</b> </h4>
+                    <p class="mb-0"><i>The place to write your code</i></p>
+                </div>
+                <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                         src="images/2.gif" width="100" alt="Card image cap">
+                    <h4> <b>Install Live Server in VSCode</b> </h4>
+                    <p class="mb-0"> <i>The tool to launch your website</i> </p>
+                </div>
+                <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                         src="images/3.png" width="100">
+                    <h4> <b>Use GitHub to deploy your website online</b> </h4>
+                    <p class="mb-0"> <i>(and show off)</i> </p>
+                </div>
+                <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle"
+                         src="images/4.jpg" width="100">
+                    <h4> <b>You are good to go!</b> </h4>
+                    <p class="mb-0"> <i>Now, it is your turn to build your website!</i> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 text-center" id="parallax-section">
+        <div class="container">
+            <div class="row" style="display: flex;justify-content: center;">
+                <div class="bg-white col-md-5 p-0 mx-auto mx-md-0 col-lg-5" style="height:350px;border: 5px solid #0e8c81b7;">
+                    <br>
+                    <h1>Want to share your<br>website to me?</h1>
+                    <br>
+                    <br>
+                    <p class="mb-4">Please enter the URL of your website <br> I will be happy to see what you did!</p>
+                    <form class="form-inline d-flex justify-content-center" style="margin-top: -20px;">
+                        <div class="input-group"> <input type="text" class="form-control" placeholder="Your URL"
+                                   id="form6">
+                            <div class="input-group-append"> <a class="btn btn-primary" id="sendButton">Send my website</a></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5" id="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center align-self-center p-4 text-white">
+                    <p class="mb-5"> <strong>Conding Summer School</strong> <br>Square de Meeûs 5 <br>1000 Brussels</p>
+                    <div class="row">
+                        <div class="col-md-12 d-flex align-items-center justify-content-center"> <a href="https://www.facebook.com/thinkyoung">
+                                <i class="d-block fa fa-facebook-official text-light fa-lg mx-2"></i>
+                            </a> <a href="https://www.instagram.com/thinkyoung.ngo">
+                                <i class="d-block fa fa-instagram text-light fa-lg mx-2"></i>
+                            </a> </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.5528778357834!2d4.365973915745529!3d50.839445379531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4851fecb811%3A0xafe6a6901591a59b!2sSquare%20de%20Mee%C3%BBs%205%2C%201000%20Bruxelles!5e0!3m2!1sfr!2sbe!4v1624538286892!5m2!1sfr!2sbe" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        let sendMailButton = document.querySelector("#sendButton")
+
+        sendMailButton.addEventListener("click", () => {
+            let body = document.querySelector("#form6").value;
+            window.location.href = "mailto:anatole.huet@gmail.com?subject=My awesome website&body="+body;
+        })
+    </script>
+</body>
+
+</html>
