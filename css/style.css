@@ -9,7 +9,7 @@ html {
     background-repeat: repeat, repeat;
 }
 
-#parallax-section {
+#share {
     /*background-image: linear-gradient(to bottom, #0e8c82,#ffffff),url(../images/shareBanner.jpg);*/
     background-position: right bottom;
     background-size: cover;
